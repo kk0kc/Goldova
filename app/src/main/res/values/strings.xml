@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FintechFilms</string>
+
+    //list fragment
+    <string name="btn_top">Популярные</string>
+    <string name="btn_fav">Избранное</string>
+
+    //detail fragment
+    <string name="genre">Жанры: %s</string>
+    <string name="country">Страны: %s</string>
+    <string name="separator">,  </string>
+
+    //error
+    <string name="network_error">Произошла ошибка при загрузке данных,\n проверьте подключение к сети</string>
+    <string name="repeat">Повторить</string>
+</resources>

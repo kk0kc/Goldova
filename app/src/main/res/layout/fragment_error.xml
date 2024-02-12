@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".presentation.ErrorFragment">
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="visible" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vector" />
+
+    <TextView
+        android:id="@+id/tv_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:gravity="center"
+        android:text="@string/network_error"
+        android:textColor="@color/blue_20"
+        android:textSize="14sp" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt_error"
+        style="@style/RoundedCornerButton"
+        android:layout_gravity="center"
+        android:text="@string/repeat" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_fav"
+        android:text="@string/btn_fav"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        style="@style/RoundedCornerButtonLight" />
+
+
+</LinearLayout>
